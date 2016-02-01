@@ -1,0 +1,14 @@
+[paths]
+source =
+   src/django-webhook-github
+   */site-packages/django-webhook-github
+
+[run]
+branch = True
+source = django-webhook-github
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
