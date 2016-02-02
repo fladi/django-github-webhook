@@ -22,7 +22,7 @@ if os.getenv('SPELLCHECK'):
 
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'django-webhook-github'
+project = 'django-github-webhook'
 year = '2016'
 author = 'Michael Fladischer'
 copyright = '{0}, {1}'.format(year, author)
@@ -31,8 +31,8 @@ version = release = '0.1.0'
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://github.com/fladi/django-webhook-github/issues/%s', '#'),
-    'pr': ('https://github.com/fladi/django-webhook-github/pull/%s', 'PR #'),
+    'issue': ('https://github.com/fladi/django-github-webhook/issues/%s', '#'),
+    'pr': ('https://github.com/fladi/django-github-webhook/pull/%s', 'PR #'),
 }
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'

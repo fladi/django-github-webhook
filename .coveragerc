@@ -1,11 +1,11 @@
 [paths]
 source =
-   src/django-webhook-github
-   */site-packages/django-webhook-github
+   src/django-github-webhook
+   */site-packages/django-github-webhook
 
 [run]
 branch = True
-source = django-webhook-github
+source = django-github-webhook
 parallel = true
 
 [report]

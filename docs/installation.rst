@@ -4,4 +4,4 @@ Installation
 
 At the command line::
 
-    pip install django-webhook-github
+    pip install django-github-webhook
