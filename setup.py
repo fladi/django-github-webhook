@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='django-github-webhook',
-    version='0.1.0',
+    version='0.1.1',
     license='BSD',
     description='Django view for GitHub webhook recievers',
     long_description='%s\n%s' % (
