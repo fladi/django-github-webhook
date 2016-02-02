@@ -1,7 +1,7 @@
 [paths]
 source =
-   src/django-github-webhook
-   */site-packages/django-github-webhook
+   src/django_github_webhook
+   */site-packages/django_github_webhook
 
 [run]
 branch = True
